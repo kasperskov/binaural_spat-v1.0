@@ -1,7 +1,7 @@
 # binaural_spat
 ![alt tag](docs/space_gui.png)
 ## About
-binaural_spat is a collection of Max for Live devices for binaural spatialisation in Ableton Live using IRCAM's Spat5 library. binaural_spat makes use of new multichannel routing capabilities in Live 10 and Max for Live. Before continuing, make sure to have both installed. 
+binaural_spat is a collection of Max for Live devices for binaural spatialisation in Ableton Live using [IRCAM's Spat5 Library](https://forum.ircam.fr/projects/detail/spat/). binaural_spat makes use of new multichannel routing capabilities in [Live 10](https://www.ableton.com) and [Max for Live](https://www.ableton.com/en/live/max-for-live/). Before continuing, make sure to have both installed. 
 
 The current version is still being tested, so if you encounter any issues on Windows or Mac, please report back to me. 
 ## Installation
@@ -27,7 +27,7 @@ Note that adding a source-device to a track will automatically set the track to 
 You can add up to 16 source devices (although 16 is not recommended due to high CPU load).
 
 ### Head-tracking capabilities
-The listener-device is ready for setting up a head-tracking system. As an experimental feature, I have included the device 'gyrosc2live' which enables OSC (Open Sound Control) communication between the iOS app GyrOSC and the listener-device. The gyrosc2live-device receives gyroscope data from the app (preferably installed on an iPhone) and makes it easy to map euler angles (pitch, yaw, roll) to the 'pitch', 'yaw', and 'roll' parameters in the listener device. Place the iPhone on top of your head and click 'reorient', and by moving your head around you should be able to see/hear the result accordingly. 
+The listener-device is ready for setting up a head-tracking system. As an experimental feature, I have included the device 'gyrosc2live' which enables OSC (Open Sound Control) communication between the iOS app [GyrOSC](http://www.bitshapesoftware.com/instruments/gyrosc/) and the listener-device. The gyrosc2live-device receives gyroscope data from the app (preferably installed on an iPhone) and makes it easy to map euler angles (pitch, yaw, roll) to the 'pitch', 'yaw', and 'roll' parameters in the listener device. Place the iPhone on top of your head and click 'reorient', and by moving your head around you should be able to see/hear the result accordingly. 
 
 ![alt tag](docs/gyrosc_gui.png)
 
