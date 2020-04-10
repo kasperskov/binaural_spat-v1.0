@@ -27,7 +27,7 @@ Note that adding a source-device to a track will automatically set the track to 
 You can add up to 16 source devices (although 16 is not recommended due to high CPU load).
 
 ### Head-tracking capabilities
-The listener-device is ready for setting up a head-tracking system. As an experimental feature, I have included the device 'gyrosc2live' which enables OSC (Open Sound Control) communication between the iOS app [GyrOSC](http://www.bitshapesoftware.com/instruments/gyrosc/) and the listener-device. The gyrosc2live-device receives gyroscope data from the app (preferably installed on an iPhone) and makes it easy to map euler angles (pitch, yaw, roll) to the 'pitch', 'yaw', and 'roll' parameters in the listener device. Place the iPhone on top of your head and click 'reorient', and by moving your head around you should be able to see/hear the result accordingly. 
+The listener-device is ready for setting up a head-tracking system. As an experimental feature, I have included the device 'gyrosc2live' which enables OSC (Open Sound Control) communication between the iOS app [GyrOSC](http://www.bitshapesoftware.com/instruments/gyrosc/) and the listener-device. The gyrosc2live-device receives gyroscope data from the app (preferably installed on an iPhone) and makes it easy to map euler angles (pitch, yaw, roll) to the 'pitch', 'yaw', and 'roll' parameters in the listener device. When the app and device is set up, place the iPhone on top of your head and click 'reorient'. By moving your head around you should be able to see/hear the result accordingly. 
 
 ![alt tag](docs/gyrosc_gui.png)
 
