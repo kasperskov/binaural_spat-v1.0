@@ -1,4 +1,4 @@
-# spat4live_beta-v1.0
+# binaural_spat
 ## Binaural spatialisation in Ableton Live using Spat5 library. 
 
 ### Setup
