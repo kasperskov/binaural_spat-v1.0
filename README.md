@@ -31,4 +31,4 @@ The listener-device is ready for setting up a head-tracking system. As an experi
 
 ![alt tag](docs/gyrosc_gui.png)
 
-In order to setup more complex head-tracking systems with position and head-orientation, you can create a similar Max for Live device and map the data to position and euler-angles inside the listener-device.
+In order to setup more complex head-tracking systems with position and head-orientation, you can create a similar Max for Live device and map the data to position (x, y, z) and euler-angles inside the listener-device.
